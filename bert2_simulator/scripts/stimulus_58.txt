@@ -1,0 +1,11 @@
+receive_signal	informHumanOfHandoverStart
+set_param	h_pressureOk=0
+set_param	time=94
+set_param	h_locationOk=0
+receive_signal	setv
+set_param	setl=1
+set_param	h_undefPress=0
+set_param	time=47
+set_param	setg=1
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart

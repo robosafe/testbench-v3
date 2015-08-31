@@ -1,0 +1,100 @@
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:100
+Missing statements:51
+Covered percentage:66%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:100
+Missing statements:51
+Covered percentage:66%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------
+Considered statements:151
+Run statements:110
+Missing statements:41
+Covered percentage:72%
+-------------------

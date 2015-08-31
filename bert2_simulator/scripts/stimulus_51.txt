@@ -1,0 +1,4 @@
+set_param	setg=0
+set_param	h_undefLoc=0
+send_signal	humanIsReady
+receive_signal	setv

@@ -1,0 +1,11 @@
+send_signal	setv
+set_param	setg=0
+set_param	setp=1
+send_signal	setv
+send_signal	activateRobot
+receive_signal	setv
+receive_signal	setv
+receive_signal	setv
+set_param	time=23
+set_param	h_onTask=0
+send_signal	humanIsReady

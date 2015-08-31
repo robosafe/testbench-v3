@@ -1,0 +1,6 @@
+receive_signal	informHumanOfHandoverStart
+set_param	time=71
+send_signal	setv
+set_param	h_locationOk=1
+send_signal	setv
+send_signal	humanIsReady

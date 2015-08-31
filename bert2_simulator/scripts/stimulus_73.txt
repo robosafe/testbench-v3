@@ -1,0 +1,8 @@
+send_signal	activateRobot
+send_signal	humanIsReady
+receive_signal	setv
+set_param	h_undefPress=1
+set_param	setg=0
+send_signal	activateRobot
+send_signal	activateRobot
+receive_signal	setv

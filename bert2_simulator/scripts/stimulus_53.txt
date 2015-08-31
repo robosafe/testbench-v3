@@ -1,0 +1,4 @@
+set_param	setl=0
+send_signal	setv
+send_signal	activateRobot
+send_signal	activateRobot

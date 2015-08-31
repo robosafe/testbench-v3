@@ -1,0 +1,4 @@
+send_signal	setv
+send_signal	humanIsReady
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart

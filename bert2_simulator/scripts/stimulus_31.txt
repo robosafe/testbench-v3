@@ -1,0 +1,14 @@
+receive_signal	informHumanOfHandoverStart
+receive_signal	setv
+send_signal	setv
+send_signal	activateRobot
+send_signal	setv
+send_signal	activateRobot
+set_param	setl=1
+set_param	h_gazeOk=1
+set_param	h_gazeOk=0
+receive_signal	setv
+set_param	time=42
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+set_param	setl=1

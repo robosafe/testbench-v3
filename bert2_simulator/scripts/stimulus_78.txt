@@ -1,0 +1,8 @@
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+set_param	h_locationOk=1
+receive_signal	setv
+send_signal	activateRobot
+send_signal	activateRobot
+send_signal	setv
+send_signal	activateRobot

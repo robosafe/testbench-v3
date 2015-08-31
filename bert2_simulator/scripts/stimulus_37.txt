@@ -1,0 +1,4 @@
+set_param	h_gazeOk=0
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart

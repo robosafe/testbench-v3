@@ -1,0 +1,5 @@
+receive_signal	informHumanOfHandoverStart
+send_signal	activateRobot
+receive_signal	setv
+send_signal	activateRobot
+set_param	setg=0

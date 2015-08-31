@@ -1,0 +1,5 @@
+set_param	time=78
+set_param	time=93
+set_param	h_undefLoc=1
+send_signal	setv
+set_param	h_undefPress=1

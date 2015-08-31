@@ -1,0 +1,6 @@
+receive_signal	informHumanOfHandoverStart
+send_signal	setv
+set_param	h_pressureOk=1
+send_signal	activateRobot
+set_param	h_pressureOk=0
+set_param	h_locationOk=1

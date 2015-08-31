@@ -1,0 +1,12 @@
+receive_signal	setv
+set_param	h_locationOk=1
+send_signal	setv
+receive_signal	informHumanOfHandoverStart
+set_param	h_locationOk=1
+receive_signal	setv
+set_param	h_undefLoc=0
+set_param	h_undefLoc=1
+send_signal	activateRobot
+set_param	h_onTask=1
+receive_signal	setv
+receive_signal	setv

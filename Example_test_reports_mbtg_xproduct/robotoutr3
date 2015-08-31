@@ -1,0 +1,23 @@
+Seed: 98182
+Timeout:4
+[INFO] [WallTime: 1439918224.545581] [0.000000] State machine starting in initial state 'Reset' with userdata: 
+	[]
+[INFO] [WallTime: 1439918227.822733] [273.724000] State machine transitioning 'Reset':'outcome1'-->'Receive1'
+[INFO] [WallTime: 1439918228.101814] [273.925000] State machine transitioning 'Receive1':'outcome2'-->'Receive1'
+[INFO] [WallTime: 1439918228.411140] [274.125000] State machine transitioning 'Receive1':'outcome2'-->'Receive1'
+[INFO] [WallTime: 1439918228.696047] [274.325000] State machine transitioning 'Receive1':'outcome1'-->'Move_hand'
+[0m[ INFO] [1439918228.818756550]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439918228.820631299]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439918229.558122453, 274.745000000]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439918229.558171503, 274.745000000]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439918230.515647637, 275.378000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439918235.414729610, 278.895000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439918238.136384653, 280.617000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439918244.464455538, 284.713000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[INFO] [WallTime: 1439918247.914518] [287.051000] State machine transitioning 'Move_hand':'outcome1'-->'Send1'
+[INFO] [WallTime: 1439918249.120733] [288.053000] State machine transitioning 'Send1':'outcome1'-->'Receive2'
+[INFO] [WallTime: 1439918249.375336] [288.253000] State machine transitioning 'Receive2':'outcome1'-->'Wait0'
+[INFO] [WallTime: 1439918253.364867] [291.254000] State machine transitioning 'Wait0':'outcome1'-->'Sensing'
+[INFO] [WallTime: 1439918253.659411] [291.462000] State machine transitioning 'Sensing':'outcome3'-->'Timeout'
+Robot timed out
+[INFO] [WallTime: 1439918253.787918] [291.564000] State machine terminating 'Timeout':'outcome1':'interactionDone'

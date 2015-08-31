@@ -1,0 +1,24 @@
+Seed: 24893
+Timeout:90
+[INFO] [WallTime: 1439917910.332476] [0.000000] State machine starting in initial state 'Reset' with userdata: 
+	[]
+[INFO] [WallTime: 1439917913.603154] [4.051000] State machine transitioning 'Reset':'outcome1'-->'Receive1'
+[INFO] [WallTime: 1439917913.842595] [4.256000] State machine transitioning 'Receive1':'outcome2'-->'Receive1'
+[INFO] [WallTime: 1439917914.113735] [4.459000] State machine transitioning 'Receive1':'outcome1'-->'Move_hand'
+[0m[ INFO] [1439917914.191929869]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439917914.191963514]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439917914.670393210, 4.878000000]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439917914.671065778, 4.879000000]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439917915.639368576, 5.668000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439917919.340833188, 8.706000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439917921.757325050, 10.653000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439917926.871480028, 14.724000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[INFO] [WallTime: 1439917929.601658] [16.914000] State machine transitioning 'Move_hand':'outcome1'-->'Send1'
+[INFO] [WallTime: 1439917930.827459] [17.915000] State machine transitioning 'Send1':'outcome1'-->'Receive2'
+[INFO] [WallTime: 1439917931.074968] [18.115000] State machine transitioning 'Receive2':'outcome1'-->'Wait0'
+[INFO] [WallTime: 1439917934.648514] [21.115000] State machine transitioning 'Wait0':'outcome1'-->'Sensing'
+[INFO] [WallTime: 1439917934.891278] [21.320000] State machine transitioning 'Sensing':'outcome2'-->'Sensing'
+[INFO] [WallTime: 1439917935.139329] [21.520000] State machine transitioning 'Sensing':'outcome1'-->'Decide'
+GPL is not OK
+Interaction done
+[INFO] [WallTime: 1439917935.640240] [21.940000] State machine terminating 'Decide':'outcome2':'interactionDone'

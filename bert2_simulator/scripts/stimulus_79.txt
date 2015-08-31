@@ -1,0 +1,15 @@
+send_signal	humanIsReady
+receive_signal	informHumanOfHandoverStart
+send_signal	activateRobot
+receive_signal	setv
+receive_signal	informHumanOfHandoverStart
+receive_signal	setv
+receive_signal	setv
+send_signal	setv
+set_param	time=69
+receive_signal	setv
+receive_signal	setv
+set_param	h_undefLoc=1
+send_signal	setv
+set_param	time=36
+send_signal	setv

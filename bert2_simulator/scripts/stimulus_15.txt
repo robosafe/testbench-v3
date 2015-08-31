@@ -1,0 +1,11 @@
+send_signal	humanIsReady
+receive_signal	setv
+receive_signal	informHumanOfHandoverStart
+receive_signal	setv
+send_signal	humanIsReady
+set_param	setg=1
+set_param	setp=1
+set_param	h_gazeOk=1
+send_signal	setv
+set_param	h_undefPress=1
+set_param	h_undefLoc=1

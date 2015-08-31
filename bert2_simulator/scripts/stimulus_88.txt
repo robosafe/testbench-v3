@@ -1,0 +1,12 @@
+set_param	h_undefGaze=0
+receive_signal	setv
+send_signal	humanIsReady
+set_param	h_gazeOk=1
+receive_signal	setv
+receive_signal	setv
+set_param	h_onTask=0
+set_param	setp=1
+receive_signal	setv
+send_signal	activateRobot
+receive_signal	setv
+set_param	setp=0

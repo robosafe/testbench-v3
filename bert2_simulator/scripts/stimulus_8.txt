@@ -1,0 +1,6 @@
+send_signal	activateRobot
+send_signal	humanIsReady
+send_signal	humanIsReady
+send_signal	setv
+set_param	time=37
+receive_signal	informHumanOfHandoverStart

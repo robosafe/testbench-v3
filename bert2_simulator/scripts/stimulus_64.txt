@@ -1,0 +1,8 @@
+receive_signal	informHumanOfHandoverStart
+set_param	h_pressureOk=0
+set_param	h_gazeOk=0
+set_param	time=91
+set_param	h_undefGaze=1
+send_signal	humanIsReady
+send_signal	setv
+set_param	setg=0

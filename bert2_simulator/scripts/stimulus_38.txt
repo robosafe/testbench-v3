@@ -1,0 +1,8 @@
+send_signal	humanIsReady
+set_param	setp=0
+send_signal	activateRobot
+set_param	setl=1
+receive_signal	setv
+receive_signal	informHumanOfHandoverStart
+receive_signal	setv
+send_signal	setv

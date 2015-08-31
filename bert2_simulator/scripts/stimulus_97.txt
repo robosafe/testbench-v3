@@ -1,0 +1,14 @@
+set_param	h_pressureOk=1
+set_param	h_undefPress=1
+send_signal	humanIsReady
+send_signal	humanIsReady
+set_param	h_gazeOk=1
+send_signal	humanIsReady
+send_signal	humanIsReady
+set_param	h_undefLoc=1
+set_param	h_undefLoc=0
+send_signal	humanIsReady
+set_param	h_onTask=1
+receive_signal	setv
+set_param	time=23
+send_signal	setv

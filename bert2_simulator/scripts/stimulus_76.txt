@@ -1,0 +1,15 @@
+send_signal	humanIsReady
+receive_signal	setv
+set_param	h_locationOk=1
+set_param	setp=1
+receive_signal	setv
+send_signal	setv
+set_param	h_pressureOk=1
+receive_signal	setv
+send_signal	humanIsReady
+send_signal	humanIsReady
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+send_signal	humanIsReady
+set_param	time=10

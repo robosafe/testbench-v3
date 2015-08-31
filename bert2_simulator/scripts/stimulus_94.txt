@@ -1,0 +1,15 @@
+receive_signal	setv
+send_signal	activateRobot
+receive_signal	setv
+send_signal	setv
+set_param	setp=1
+set_param	h_pressureOk=1
+receive_signal	informHumanOfHandoverStart
+set_param	h_undefLoc=1
+set_param	h_undefGaze=1
+receive_signal	setv
+set_param	setp=0
+send_signal	activateRobot
+send_signal	activateRobot
+set_param	setl=0
+send_signal	setv

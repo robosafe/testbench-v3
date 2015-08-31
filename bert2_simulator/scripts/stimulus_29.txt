@@ -1,0 +1,6 @@
+send_signal	activateRobot
+set_param	time=17
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+send_signal	activateRobot
+receive_signal	setv

@@ -1,0 +1,9 @@
+set_param	h_undefPress=0
+receive_signal	setv
+send_signal	humanIsReady
+receive_signal	informHumanOfHandoverStart
+send_signal	humanIsReady
+receive_signal	setv
+receive_signal	informHumanOfHandoverStart
+send_signal	humanIsReady
+send_signal	setv

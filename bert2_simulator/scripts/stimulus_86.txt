@@ -1,0 +1,8 @@
+send_signal	setv
+receive_signal	setv
+receive_signal	setv
+set_param	h_undefLoc=1
+receive_signal	informHumanOfHandoverStart
+set_param	h_onTask=0
+send_signal	setv
+send_signal	setv

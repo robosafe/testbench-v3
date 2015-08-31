@@ -1,0 +1,6 @@
+receive_signal	setv
+receive_signal	setv
+receive_signal	setv
+set_param	time=78
+set_param	h_gazeOk=0
+set_param	h_onTask=0

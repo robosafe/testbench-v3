@@ -1,0 +1,8 @@
+set_param	h_undefGaze=1
+set_param	h_locationOk=0
+receive_signal	informHumanOfHandoverStart
+set_param	h_onTask=0
+set_param	setp=0
+set_param	h_undefPress=1
+send_signal	setv
+set_param	setl=0

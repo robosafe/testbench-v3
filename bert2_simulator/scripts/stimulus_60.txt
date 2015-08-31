@@ -1,0 +1,8 @@
+send_signal	setv
+send_signal	activateRobot
+set_param	h_undefGaze=1
+receive_signal	informHumanOfHandoverStart
+set_param	setg=1
+send_signal	activateRobot
+set_param	setg=1
+receive_signal	informHumanOfHandoverStart

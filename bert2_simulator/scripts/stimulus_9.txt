@@ -1,0 +1,7 @@
+receive_signal	setv
+send_signal	setv
+set_param	h_undefPress=0
+send_signal	setv
+set_param	h_undefPress=0
+set_param	h_locationOk=1
+set_param	time=57

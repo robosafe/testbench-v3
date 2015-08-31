@@ -1,0 +1,7 @@
+send_signal	activateRobot
+send_signal	activateRobot
+receive_signal	informHumanOfHandoverStart
+set_param	h_onTask=0
+set_param	setg=0
+send_signal	activateRobot
+send_signal	activateRobot

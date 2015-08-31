@@ -1,0 +1,6 @@
+set_param	h_undefGaze=0
+receive_signal	setv
+send_signal	setv
+set_param	h_undefLoc=0
+receive_signal	setv
+receive_signal	informHumanOfHandoverStart

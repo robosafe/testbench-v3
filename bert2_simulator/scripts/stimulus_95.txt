@@ -1,0 +1,15 @@
+send_signal	humanIsReady
+send_signal	activateRobot
+send_signal	setv
+set_param	h_undefPress=1
+receive_signal	setv
+receive_signal	informHumanOfHandoverStart
+set_param	h_undefLoc=1
+receive_signal	informHumanOfHandoverStart
+set_param	setl=1
+send_signal	setv
+receive_signal	informHumanOfHandoverStart
+send_signal	humanIsReady
+set_param	h_undefPress=1
+set_param	h_locationOk=1
+set_param	time=2

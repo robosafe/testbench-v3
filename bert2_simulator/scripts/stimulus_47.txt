@@ -1,0 +1,9 @@
+receive_signal	setv
+receive_signal	setv
+receive_signal	setv
+set_param	h_undefPress=0
+set_param	h_onTask=1
+receive_signal	setv
+set_param	time=9
+set_param	h_pressureOk=1
+send_signal	setv

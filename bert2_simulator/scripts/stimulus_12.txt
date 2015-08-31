@@ -1,0 +1,13 @@
+set_param	setp=1
+send_signal	setv
+send_signal	humanIsReady
+send_signal	humanIsReady
+receive_signal	setv
+send_signal	setv
+send_signal	humanIsReady
+receive_signal	setv
+send_signal	activateRobot
+send_signal	activateRobot
+receive_signal	setv
+send_signal	setv
+set_param	setl=0

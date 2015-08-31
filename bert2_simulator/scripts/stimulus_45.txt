@@ -1,0 +1,4 @@
+receive_signal	setv
+send_signal	activateRobot
+set_param	time=48
+send_signal	setv

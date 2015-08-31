@@ -1,0 +1,4 @@
+set_param	h_undefGaze=0
+receive_signal	informHumanOfHandoverStart
+send_signal	humanIsReady
+receive_signal	informHumanOfHandoverStart

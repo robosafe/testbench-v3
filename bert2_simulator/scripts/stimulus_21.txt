@@ -1,0 +1,11 @@
+set_param	h_gazeOk=1
+send_signal	setv
+receive_signal	setv
+send_signal	humanIsReady
+set_param	h_gazeOk=0
+receive_signal	setv
+set_param	setg=1
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+receive_signal	setv
+set_param	setp=0

@@ -1,0 +1,8 @@
+send_signal	humanIsReady
+set_param	h_gazeOk=1
+send_signal	activateRobot
+receive_signal	informHumanOfHandoverStart
+send_signal	activateRobot
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart
+receive_signal	informHumanOfHandoverStart

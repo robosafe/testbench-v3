@@ -1,0 +1,6 @@
+set_param	h_onTask=0
+send_signal	activateRobot
+receive_signal	setv
+send_signal	activateRobot
+send_signal	humanIsReady
+send_signal	activateRobot

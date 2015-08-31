@@ -1,0 +1,5 @@
+send_signal	humanIsReady
+receive_signal	setv
+set_param	setg=0
+set_param	setp=0
+set_param	h_undefGaze=0

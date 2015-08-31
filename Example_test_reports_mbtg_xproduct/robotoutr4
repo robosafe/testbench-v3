@@ -1,0 +1,24 @@
+Seed: 45663
+Timeout:35
+[INFO] [WallTime: 1439918382.358866] [0.000000] State machine starting in initial state 'Reset' with userdata: 
+	[]
+[INFO] [WallTime: 1439918384.686170] [405.058000] State machine transitioning 'Reset':'outcome1'-->'Receive1'
+[INFO] [WallTime: 1439918384.948193] [405.261000] State machine transitioning 'Receive1':'outcome2'-->'Receive1'
+[INFO] [WallTime: 1439918385.204763] [405.461000] State machine transitioning 'Receive1':'outcome1'-->'Move_hand'
+[0m[ INFO] [1439918385.251762381]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439918385.251811084]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439918385.760855748, 405.873000000]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439918385.760912380, 405.873000000]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439918386.675183940, 406.600000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439918390.481396123, 409.554000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439918392.926702794, 411.185000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439918397.922257916, 415.016000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[INFO] [WallTime: 1439918400.689123] [417.138000] State machine transitioning 'Move_hand':'outcome1'-->'Send1'
+[INFO] [WallTime: 1439918401.951261] [418.141000] State machine transitioning 'Send1':'outcome1'-->'Receive2'
+[INFO] [WallTime: 1439918402.215461] [418.343000] State machine transitioning 'Receive2':'outcome1'-->'Wait0'
+[INFO] [WallTime: 1439918406.024959] [421.344000] State machine transitioning 'Wait0':'outcome1'-->'Sensing'
+[INFO] [WallTime: 1439918406.285707] [421.546000] State machine transitioning 'Sensing':'outcome2'-->'Sensing'
+[INFO] [WallTime: 1439918406.523635] [421.746000] State machine transitioning 'Sensing':'outcome1'-->'Decide'
+GPL is not OK
+Interaction done
+[INFO] [WallTime: 1439918407.053809] [422.159000] State machine terminating 'Decide':'outcome2':'interactionDone'

@@ -1,0 +1,24 @@
+Seed: 53292
+Timeout:100
+[INFO] [WallTime: 1439920595.567134] [0.000000] State machine starting in initial state 'Reset' with userdata: 
+	[]
+[INFO] [WallTime: 1439920598.108802] [2279.841000] State machine transitioning 'Reset':'outcome1'-->'Receive1'
+[INFO] [WallTime: 1439920598.389899] [2280.044000] State machine transitioning 'Receive1':'outcome2'-->'Receive1'
+[INFO] [WallTime: 1439920598.643321] [2280.244000] State machine transitioning 'Receive1':'outcome1'-->'Move_hand'
+[0m[ INFO] [1439920598.694031069]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439920598.694090142]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439920599.110083324, 2280.523000000]: Loading robot model 'bert2'...[0m
+[0m[ INFO] [1439920599.110124791, 2280.523000000]: No root joint specified. Assuming fixed joint[0m
+[0m[ INFO] [1439920599.963814171, 2281.117000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439920604.675116817, 2284.474000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439920607.192678774, 2286.274000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[0m[ INFO] [1439920612.526590192, 2290.109000000]: Ready to take MoveGroup commands for group body_arm.[0m
+[INFO] [WallTime: 1439920615.441864] [2292.185000] State machine transitioning 'Move_hand':'outcome1'-->'Send1'
+[INFO] [WallTime: 1439920616.832717] [2293.189000] State machine transitioning 'Send1':'outcome1'-->'Receive2'
+[INFO] [WallTime: 1439920617.114726] [2293.391000] State machine transitioning 'Receive2':'outcome1'-->'Wait0'
+[INFO] [WallTime: 1439920621.222637] [2296.391000] State machine transitioning 'Wait0':'outcome1'-->'Sensing'
+[INFO] [WallTime: 1439920621.492362] [2296.595000] State machine transitioning 'Sensing':'outcome2'-->'Sensing'
+[INFO] [WallTime: 1439920621.753739] [2296.795000] State machine transitioning 'Sensing':'outcome1'-->'Decide'
+GPL is not OK
+Interaction done
+[INFO] [WallTime: 1439920622.326801] [2297.200000] State machine terminating 'Decide':'outcome2':'interactionDone'
