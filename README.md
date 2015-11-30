@@ -24,7 +24,7 @@ This will generate a number of traces (one for each property in the model.q file
 
 ----------------RUNNING THE TESTBENCH-----------------------------------
 - To be run in ROS Indigo with Gazebo and MoveIt! installed.
-- Use the bash scripts, to run the testing in batch mode with visuals in Gazebo. Reports are generated in the /tmp/ folder. The bash scripts will start ROS (the core), Gazebo, MoveIt and will run all the Python scripts that pull the stimulus, execute the environment and robot codes, and produce reports (assertion coverage, code coverage). 
+- Use the bash scripts (one for each type of stimulus generation: model-based, random, constrained), to run the testing in batch mode with visuals in Gazebo. Reports are generated in the /tmp/ folder. The bash scripts will start ROS (the core), Gazebo, MoveIt and will run all the Python scripts that pull the stimulus, execute the environment and robot codes, and produce reports (assertion coverage, code coverage). 
 
 
 Questions, bugs, comments: dejanira.araizaillan@bristol.ac.uk, david.western@bristol.ac.uk
