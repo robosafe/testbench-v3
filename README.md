@@ -15,15 +15,15 @@ CDV simulator-based testbench with test templates
 
 ----------------BEFORE USE----------------------------------------------
 Assumptions:
-- Full installation and knowledge of ROS, Gazebo and MoveIt! (Packages usage, compilation, configuration). Recommended: Ubuntu 14.04LTS, ROS Indigo http://wiki.ros.org/indigo, Gazebo 2.2.6, and MoveIt for ROS Indigo (http://moveit.ros.org/install/). 
-- Compilation of the packages in a Catkin workspace (e.g., with the name catkin_ws).
-- UPPAAL knowledge (to use model checking and model-based test generation). Recommended: UPPAAL 4.0.14, CoVer 1.4 http://www.hessel.nu/CoVer/. For an UPPAAL (TA or PTA) model (model.xml) and CTL properties saved in model.q, to generate traces (test templates in model-based test generation) from command line, do: 
+- Full installation of ROS, Gazebo and MoveIt! (Packages usage, compilation, configuration). Currently this testbench version only works on ROS Hydro and Gazebo 1.9, running in Ubuntu Precise, Quantal or Raring. Support for ROS Indigo will be added soon.
+- Compilation of the packages in a Catkin workspace (e.g., with the name catkin_ws), particularly to use the assertion monitors for Gazebo speeds (C++ source files). 
+- For the model-based test generation, UPPAAL 4.0.14 (recommended), CoVer 1.4 http://www.hessel.nu/CoVer/. For an UPPAAL (TA or PTA) model (model.xml) and CTL properties saved in model.q, to generate traces (test templates in model-based test generation) from command line, do: 
 ./cover -t 0 -G -f output_file_name model.xml model.q
 This will generate a number of traces (one for each property in the model.q file) with the file name output_file_name-#.xtr. Then, use the the provided Python scripts (in /scripts/testgens) to translate into suitable stimulus files. 
--Python Coverage modules from https://coverage.readthedocs.org/en/coverage-4.0.3/.
+-Python Coverage modules installed via Pip from https://coverage.readthedocs.org/en/coverage-4.0.3/.
 
 ----------------RUNNING THE TESTBENCH-----------------------------------
-- To be run in ROS Indigo with Gazebo and MoveIt! installed.
+- To be run in ROS Hydro with Gazebo and MoveIt! installed.
 - Use the bash scripts (one for each type of stimulus generation: model-based, random, constrained), to run the testing in batch mode with visuals in Gazebo. Reports are generated in the /tmp/ folder. The bash scripts will start ROS (the core), Gazebo, MoveIt and will run all the Python scripts that pull the stimulus, execute the environment and robot codes, and produce reports (assertion coverage, code coverage). 
 
 
