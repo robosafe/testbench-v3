@@ -1,0 +1,8 @@
+# .gitignore, created by David Western, Dec 2015.
+# The signals folder must be present for the simulator (specifically, the sim_step_monitors) to work,
+# but there's no need to push and pull signals (monitor logs) to the git repo, hence...
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
