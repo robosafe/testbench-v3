@@ -90,8 +90,8 @@ def main():
 #				location_ok = 1 #false positive
 
 		pub = rospy.Publisher("sensors", Sensors, queue_size=1,latch=True)		
-		pub.publish(gaze_ok,pressure_ok,location_ok)
-		print str(gaze_ok)+','+str(pressure_ok)+','+str(location_ok)
+		pub.publish(gaze_ok,location_ok,pressure_ok)
+		print str(gaze_ok)+','+str(location_ok)+','+str(pressure_ok)
 
 #--------------------------------------------------------------------------------------
 if __name__ == '__main__':
